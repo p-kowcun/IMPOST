@@ -1,0 +1,92 @@
+.wwupanel {
+    width: 50%;
+    min-height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input[type="submit"] {
+    background-color: var(--secondary__color);
+    text-align: center;
+    padding: 10px;
+    border-radius: 2px;
+    color: var(--primary__color);
+    transition: all 0.3s ease-in-out;
+    font-weight: bold;
+    min-width: fit-content;
+    border: none;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+    background-color: #225686;
+}
+
+select {
+    border: 2px solid var(--secondary__color);
+    padding: 10px;
+    font-size: 1.3rem;
+}
+
+.wwucontainer {
+    display: flex;
+}
+
+.wwu-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    font-size: 1.1rem;
+    gap: 15px;
+}
+
+span.header {
+    margin: 15px;
+}
+
+.wwu-row img {
+    margin-right: 15px;
+}
+
+.findjob {
+    height: 40vh;
+    overflow: hidden;
+    background-image: url("../img/work_with_us.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 5%;
+}
+
+.findjob .wwuform {
+    margin-bottom: 20px;
+}
+
+span.redtxt {
+    color: var(--secondary__color);
+}
+
+.benefits {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+    font-size: 1.2rem;
+}
+
+.benefits .item {
+
+    max-width: 20vw;
+}
+.minicontent
+{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

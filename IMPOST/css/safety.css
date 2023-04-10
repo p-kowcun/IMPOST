@@ -1,0 +1,104 @@
+main
+{
+    text-align: center;
+    max-width: 70vw;
+	display: flex;
+	flex-flow: column;
+	margin: 0 auto;
+	min-height:70vh;
+}
+span.header
+{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+span.header2
+{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    margin-top: 10vh;
+}
+span.itemheader
+{
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-align: left;
+}
+span.item-icon
+{
+    margin-right: 10px;
+    font-size: 2.5rem;
+}
+
+.safetycontent
+{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 50px;
+}
+.safetycontent .item .heading
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.safetycontent .item
+{
+    max-width: 20vw;
+}
+.safetycontent .item .content
+{
+   text-align: left;
+   font-size: 1.1rem;
+}
+span.cyberinfo
+{
+    border: 2px solid var(--secondary__color);
+    width: 70vh;
+    margin: 0 auto;
+    padding: 10px;
+}
+.cybercrime
+{
+    margin-top: 10vh;
+    display: flex;
+    gap: 20px;
+}
+.cybercrime .content
+{
+    text-align: left;
+    font-size: 1.1rem;
+    word-break: break-all;
+}
+.tips
+{
+    margin-top: 10vh;
+    display: flex;
+    gap: 20px;
+}
+.tips .item
+{
+    background-color: var(--secondary__color);
+    border: 3px solid var(--secondary__color);
+    text-align: left;
+    color: var(--primary__color);
+    width: 50%;
+}   
+.tips .item .itemH
+{
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.tips .item .content
+{
+    margin-bottom: 20px;
+}
+.tips .item .advices
+{
+    background-color: var(--primary__color);
+    color: var(--dark__color);
+}
