@@ -59,6 +59,7 @@ reset.addEventListener("click", () => {
 });
 
 //selects foreaches
+//first select
 from.forEach((f)=>{
   f.addEventListener("click",()=>{
     const vowels = "aeiouy";
@@ -96,7 +97,7 @@ from.forEach((f)=>{
     updateOutput();
   })
 })
-
+//second select
 to.forEach((t)=>{
   t.addEventListener("click",()=>{
     const vowels = "aeiouy";
