@@ -1,0 +1,70 @@
+/* Main Container */
+main {
+  padding-top: 5vh;
+  display: flex;
+  align-items: center;
+}
+
+/* Find Package Button */
+
+
+/* Parcel */
+.findbox
+{
+  margin-bottom: 20px;
+}
+.parcel {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 3em;
+}
+
+.parcel .parcelstatus {
+  display: flex;
+  border-radius: 5px;
+  border: 3px solid var(--secondary__color);
+  padding: 20px;
+}
+
+.parcel .parcelstatus .timeinfo {
+  margin-right: 15px;
+}
+
+/* Progress Bar */
+.progress {
+  margin-left: -330px;
+  margin-bottom: 80px;
+}
+
+.progress_bar {
+  position: relative;
+  left: 0;
+}
+
+.progress_bar .truck {
+  position: absolute;
+  height: 50px;
+  width: 80px;
+  z-index: -1;
+  transition: all 3s ease-in-out;
+}
+
+.progress_bar .road {
+  position: absolute;
+  z-index: -2;
+  top: 13px;
+  width: 330px;
+  border-radius: 3px;
+}
+
+/* Delivery */
+.delivered
+{
+  border: 5px solid var(--secondary__color);
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 15px;
+} 
+
+

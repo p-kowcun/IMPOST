@@ -1,0 +1,139 @@
+/* Header */
+span.header {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+/* Main Container */
+main {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 20px;
+  flex-wrap: wrap;
+  min-height: 65vh;
+}
+
+/* Login Button */
+.login__btn {
+  margin-top: 10px;
+}
+
+/* Map */
+.map {
+  margin: 50px;
+}
+.allcontent
+{
+  display: flex;
+  flex-wrap: wrap;
+}
+.map #map area:hover {
+  cursor: pointer;
+}
+.mapinfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 400px;
+  height: 230px;
+  margin-left: 5vw;
+  border: 3px solid var(--secondary__color);
+  font-size: 30px;
+  margin-top: 20px;
+}
+.mapinfo .towndesc
+{
+  margin-top: 25px;
+}
+.mapinfo.hidden {
+  display: none;
+}
+.mapsinfs
+{
+  display: flex;
+  flex-direction: column;
+}
+
+.mapinfo.whiteborder {
+  border: 3px solid var(--primary_color);
+}
+.mapinfo .towndesc.hidden,.mapinfo .time.hidden
+{
+  visibility: hidden;
+}
+/* City Input */
+main form .city {
+  height: 25px;
+  color: black;
+  font-weight: 700;
+}
+main form button {
+  margin-top: 10px;
+  width: 100px;
+  min-height: fit-content;
+  height: 35px;
+  font-size: 20px;
+  font-weight: 600;
+  transition: background-color .3s;
+  background: var(--primary__color);
+  border: none;
+  color: black;
+}
+
+main form button::before {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+  content: "";
+  position: absolute;
+  height: 33px;
+  margin-left: 0px;
+  margin-top: -7px;
+  min-width: 95px;
+  max-width: 95px;
+  text-align: center;
+  border: 3px solid var(--secondary__color);
+  transition: transform .5s ease;
+  transform-origin: left center;
+}
+
+main form button:hover {
+  cursor: pointer;
+  color: var(--primary__color);
+  background-color: #bb2c2c;
+  transition: background-color .1s;
+}
+
+main form button:hover::before {
+  transform: perspective(560px) rotateY(-87deg) translateX(0px);
+  width: 10px;
+  content: "";
+  height: 33px;
+  margin-top: -7px;
+  background-color: var(--secondary__color);
+}
+
+main form button::before:hover {
+  background-color: var(--primary__color);
+}
+
+main form .reset {
+  background-color: transparent;
+  height: 45px;
+  width: 50px;
+  border: none;
+  font-size: 25px;
+  padding-top: 12px;
+}
+
+main form .reset:hover
+{
+  cursor: pointer;
+}

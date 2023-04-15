@@ -1,0 +1,33 @@
+/* Main Container */
+main {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Form */
+main form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Textarea */
+textarea {
+  margin: 25px 0;
+  font-family: "IBM Courier";
+  font-size: 1.2rem;
+  resize: none;
+  border: 3px solid var(--secondary__color);
+  outline: none;
+  padding: 1em;
+}
+
+/* Submit Button */
+main form button[type=submit] {
+  min-width: 8em;
+  height: 3em;
+  margin: 10px;
+}

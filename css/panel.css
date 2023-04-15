@@ -1,0 +1,61 @@
+/* Main Container */
+main {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+/* Module */
+.module {
+  min-height: fit-content;
+  padding: 15px;
+  width: 50%;
+  margin: 20px 0;
+}
+
+.module:first-child {
+  margin-top: 40px;
+}
+
+.module > div {
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+}
+
+.module th {
+  text-align: right;
+}
+
+.module td {
+  text-align: left;
+}
+
+/* Fieldset */
+fieldset {
+  border: 1px solid var(--dark__color);
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  transition: background-color 0.3s ease;
+}
+
+fieldset:hover, fieldset:hover > legend {
+  background-color: #f0f0f0;
+}
+
+/* Legend */
+legend {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease;
+  padding: 0 5px;
+  border: 1px solid var(--dark__color);
+}
+
+legend:hover {
+  background-color: #f0f0f0;
+}
