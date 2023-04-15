@@ -50,6 +50,7 @@ map.forEach((m) => {
 
 reset.addEventListener("click", () => {
   i = 0;
+  i2=0;
   mapinfo.forEach((info) => info.classList.add("whiteborder"));
   towndesc.forEach((desc) => desc.classList.add("hidden"));
   time.forEach((t) => t.classList.add("hidden"));
